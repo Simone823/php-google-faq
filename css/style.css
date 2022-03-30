@@ -1,0 +1,73 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.faq:not(:last-child) {
+  margin-bottom: 52px;
+}
+
+h1 {
+  margin-bottom: 28px;
+  font-size: 24px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+ol,
+ul {
+  font-size: 14px;
+  padding-left: 40px;
+}
+
+li {
+  padding-left: 15px;
+}
+/* ----------------------------------------- */
+
+.wrapper_faqs {
+  max-width: 984px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  padding: 99px 0;
+}
+
+.faq:nth-child(1) p:not(:last-child) {
+  margin-bottom: 42px;
+}
+
+.faq:nth-child(2) p:not(:last-child) {
+  margin-bottom: 44px;
+}
+
+.faq:nth-child(3) p:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+.faq:nth-child(3) ol {
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+.faq:nth-child(3) li ol {
+  margin-top: 25px;
+  padding-left: 15px;
+}
+
+.faq:nth-child(3) li ol li {
+  margin-bottom: 25px;
+}
+
+.faq:nth-child(4) p:not(:last-child) {
+  margin-bottom: 42px;
+}
+
+.faq:nth-child(4) h1 {
+  font-size: 18px;
+}
